@@ -347,7 +347,6 @@ clean:
 	@$(RMRF) $(BUILD_DIR)
 	@$(RMF) $(TARGET_README)
 	@$(RMF) $(TARGET_NEWS)
-	@$(RMF) $(TARGET_LICENSE)
 	@$(RMF) $(SELF)
 	@echo "$(PROG) has cleaned."
 
