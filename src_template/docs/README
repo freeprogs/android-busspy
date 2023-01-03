@@ -1,0 +1,61 @@
+
+__PROGRAM_NAME__ __PROGRAM_VERSION__
+
+This program helps to look and trace all bus routes in the city. It
+uses service https://go2bus.ru and it can be used with minimum
+information traffic over the net where the service does not work well.
+
+========================================================================
+
+README
+
+ 0. Requirements
+ 1. Configuration
+ 2. Building
+ 3. Installation
+   3.1 General installation
+   3.2 How to uninstall the program
+ 4. Operating
+   4.1 Set config file
+   4.2 Run program
+ 5. Files
+ 6. Copyright
+ 7. Licensing
+ 8. Contacts
+ 9. Bugs
+10. Troubleshooting
+11. Acknowledgments
+
+========================================================================
+
+0. REQUIREMENTS
+
+1. CONFIGURATION
+
+2. BUILDING
+
+3. INSTALLATION
+
+3.1 General installation
+
+3.2 How to uninstall the program
+
+4. OPERATING
+
+4.1 Set config file
+
+4.2 Run program
+
+5. FILES
+
+6. COPYRIGHT
+
+7. LICENSING
+
+8. CONTACTS
+
+9. BUGS
+
+10. TROUBLESHOOTING
+
+11. ACKNOWLEDGMENTS

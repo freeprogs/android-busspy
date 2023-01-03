@@ -1,0 +1,76 @@
+<!--
+__PROGRAM_COPYRIGHT__ __PROGRAM_AUTHOR__ __PROGRAM_AUTHOR_EMAIL_RAW__
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+    <string name="app_name">__PROGRAM_NAME__</string>
+    <string name="action_settings">Настройки</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="fourth_fragment_label">Fourth Fragment</string>
+    <string name="fifth_fragment_label">Fifth Fragment</string>
+    <string name="sixth_fragment_label">Sixth Fragment</string>
+    <string name="seventh_fragment_label">Seventh Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="update">Update</string>
+    <string name="header_route_text">This is header route text</string>
+    <string name="header_routes_text">This is header routes text</string>
+    <string name="header_result_text">This is header result text</string>
+    <string name="item_text">This is item text</string>
+    <string name="text_pushme">Push me!</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="text_first_welcome">Слежение за автобусами на сайте\nhttps://go2bus.ru</string>
+    <string name="button_first_next">Далее</string>
+
+    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="text_second_input">Номер маршрута</string>
+    <string name="text_second_fmt">По умолчанию загрузится маршрут %s</string>
+    <string name="button_second_info">Информация</string>
+    <string name="button_second_find">Найти</string>
+
+    <string name="hello_third_fragment">Hello third fragment</string>
+    <string name="text_third_header_route_fmt">Поиск маршрута %s</string>
+    <string name="text_third_header_result_fmt">Найдено: %d</string>
+    <string name="text_third_bus_route_url_fmt">https://go2bus.ru/inforoutestates?vt=b&amp;srv=sakh&amp;route=%s</string>
+    <string name="text_third_item_index_name_fmt">%d\n%s</string>
+    <string name="text_third_bundle_name_fmt">%s</string>
+    <string name="button_third_previous">Назад</string>
+    <string name="button_third_update">Обновить</string>
+
+    <string name="hello_fourth_fragment">Hello fourth fragment</string>
+    <string name="text_fourth_header_fmt">%s</string>
+    <string name="button_fourth_previous">Назад</string>
+
+    <string name="hello_fifth_fragment">Hello fifth fragment</string>
+    <string name="text_fifth_welcome">Список маршрутов и карты маршрутов</string>
+    <string name="button_fifth_previous">Назад</string>
+    <string name="button_fifth_list">Список</string>
+    <string name="button_fifth_maps">Карты</string>
+
+    <string name="hello_sixth_fragment">Hello sixth fragment</string>
+    <string name="button_sixth_previous">Назад</string>
+    <string name="text_sixth_header_routes">Список маршрутов</string>
+    <string name="text_sixth_header_result_fmt">Найдено: %d</string>
+    <string name="text_sixth_routes_list_url">https://go2bus.ru/inforoutes?vt=b;rt;tb;tr;riv&amp;srv=sakh</string>
+    <string name="text_sixth_item_name_fmt">%s</string>
+
+    <string name="hello_seventh_fragment">Hello seventh fragment</string>
+    <string name="text_seventh_welcome">Карты маршрутов</string>
+    <string name="button_seventh_previous">Назад</string>
+</resources>

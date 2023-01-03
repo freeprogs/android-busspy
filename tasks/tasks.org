@@ -1,0 +1,50 @@
+#+STARTUP: content logdone hideblocks
+#+TODO: TASK(t!) | DONE(d) CANCEL(c)
+#+TODO: BUG(b!) | FIXED(f) REJECT(r)
+#+PRIORITIES: A F C
+#+TAGS: current(c) testing(t)
+#+CONSTANTS: last_issue_id=28
+
+* Задачи
+  :PROPERTIES:
+  :COLUMNS:  %3issue_id(ID) %4issue_type(TYPE) %TODO %40ITEM %SCHEDULED %DEADLINE %1PRIORITY
+  :ARCHIVE:  tasks_archive.org::* Архив задач
+  :END:
+
+** TASK Task 1
+   :PROPERTIES:
+   :issue_id: 1
+   :issue_type: task
+   :END:
+
+   [2022-12-29 Чт]
+
+
+* Баги
+  :PROPERTIES:
+  :COLUMNS:  %3issue_id(ID) %4issue_type(TYPE) %TODO %40ITEM %SCHEDULED %DEADLINE %1PRIORITY
+  :ARCHIVE:  tasks_archive.org::* Архив багов
+  :END:
+
+** BUG Bug 1
+   :PROPERTIES:
+   :issue_id: 2
+   :issue_type: bug
+   :END:
+
+   [2022-12-29 Чт]
+
+
+* Окружение проекта
+  :PROPERTIES:
+  :COLUMNS:  %3issue_id(ID) %4issue_type(TYPE) %TODO %40ITEM %SCHEDULED %DEADLINE %1PRIORITY
+  :ARCHIVE:  tasks_archive.org::* Архив окружения
+  :END:
+
+** TASK Task 2
+   :PROPERTIES:
+   :issue_id: 3
+   :issue_type: task
+   :END:
+
+   [2022-12-29 Чт]

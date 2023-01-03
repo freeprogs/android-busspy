@@ -1,0 +1,36 @@
+<!--
+__PROGRAM_COPYRIGHT__ __PROGRAM_AUTHOR__ __PROGRAM_AUTHOR_EMAIL_RAW__
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="135.46666"
+    android:viewportHeight="135.46667">
+  <path
+      android:pathData="M15.812,39.657L39.657,15.812A0,0 90.225,0 1,39.657 15.812L119.655,95.809A0,0 89.108,0 1,119.655 95.809L95.809,119.655A0,0 88.901,0 1,95.809 119.655L15.812,39.657A0,0 0,0 1,15.812 39.657z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.13181376"
+      android:fillColor="#ffffff"
+      android:strokeColor="#00000000"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M95.809,15.812L119.655,39.657A0,0 89.521,0 1,119.655 39.657L39.657,119.655A0,0 90,0 1,39.657 119.655L15.812,95.809A0,0 90.43,0 1,15.812 95.809L95.809,15.812A0,0 0,0 1,95.809 15.812z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="1.13181376"
+      android:fillColor="#ffffff"
+      android:strokeColor="#00000000"
+      android:strokeLineCap="round"/>
+</vector>
