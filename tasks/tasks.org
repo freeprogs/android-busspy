@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=28
+#+CONSTANTS: last_issue_id=1
 
 * Задачи
   :PROPERTIES:
@@ -11,13 +11,13 @@
   :ARCHIVE:  tasks_archive.org::* Архив задач
   :END:
 
-** TASK Task 1
+** TASK Сделать картинку на приветственном экране
    :PROPERTIES:
    :issue_id: 1
    :issue_type: task
    :END:
 
-   [2022-12-29 Чт]
+   [2020-08-09 Вс]
 
 
 * Баги
