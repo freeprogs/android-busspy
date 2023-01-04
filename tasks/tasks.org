@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=21
+#+CONSTANTS: last_issue_id=22
 
 * Задачи
   :PROPERTIES:
@@ -196,6 +196,14 @@
    сделать набор состояний для программы, при котором каждый экран
    будет находится в каком-то одном или в каких-то нескольких
    состояниях.
+
+** TASK Добавить время последнего обновления списка единиц
+   :PROPERTIES:
+   :issue_id: 22
+   :issue_type: task
+   :END:
+
+   [2020-08-09 Вс]
 
 
 * Баги
