@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=4
+#+CONSTANTS: last_issue_id=5
 
 * Задачи
   :PROPERTIES:
@@ -38,6 +38,14 @@
 ** TASK Сделать индикатор поиска данных в сети
    :PROPERTIES:
    :issue_id: 4
+   :issue_type: task
+   :END:
+
+   [2020-08-09 Вс]
+
+** TASK Сделать просмотр названий всех единиц
+   :PROPERTIES:
+   :issue_id: 5
    :issue_type: task
    :END:
 
