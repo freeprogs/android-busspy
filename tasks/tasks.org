@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=9
+#+CONSTANTS: last_issue_id=10
 
 * Задачи
   :PROPERTIES:
@@ -86,6 +86,14 @@
    Нужно сделать состояния в программе, которые будут передаваться
    между экранами и по которым будет определяться, нужно ли обновлять
    информацию при за ходе на экран или нет.
+
+** TASK Сделать кнопку ручного обновления информации всех единиц
+   :PROPERTIES:
+   :issue_id: 10
+   :issue_type: task
+   :END:
+
+   [2020-08-09 Вс]
 
 
 * Баги
