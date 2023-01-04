@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=7
+#+CONSTANTS: last_issue_id=8
 
 * Задачи
   :PROPERTIES:
@@ -62,6 +62,14 @@
 ** TASK Сделать страницу настроек программы
    :PROPERTIES:
    :issue_id: 7
+   :issue_type: task
+   :END:
+
+   [2020-08-09 Вс]
+
+** TASK Добавить установку другой единицы по умолчанию
+   :PROPERTIES:
+   :issue_id: 8
    :issue_type: task
    :END:
 
