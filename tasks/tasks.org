@@ -3,7 +3,7 @@
 #+TODO: BUG(b!) | FIXED(f) REJECT(r)
 #+PRIORITIES: A F C
 #+TAGS: current(c) testing(t)
-#+CONSTANTS: last_issue_id=16
+#+CONSTANTS: last_issue_id=17
 
 * Задачи
   :PROPERTIES:
@@ -142,6 +142,14 @@
 ** TASK Сделать индикатор индивидуального или общего набора точек единицы
    :PROPERTIES:
    :issue_id: 16
+   :issue_type: task
+   :END:
+
+   [2020-08-09 Вс]
+
+** TASK Сократить количество полей единицы в общем списке до самых главных
+   :PROPERTIES:
+   :issue_id: 17
    :issue_type: task
    :END:
 
