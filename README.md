@@ -62,6 +62,38 @@ This program has tested on environment configuration
 
 ```
 
+In Android Studio you should check following settings
+
+1. Select menu `Tools`.
+
+2. Select submenu `SDK Manager`.
+
+3. Select tab `SDK Platforms`.
+
+There should be installed
+
+```
+- Android SDK Platform 30
+- Android SDK Platform 29
+- Sources for Android 29
+- Android SDK Platform 28
+- Sources for Android 28
+```
+
+1. Select menu `Tools`.
+
+2. Select submenu `SDK Manager`.
+
+3. Select tab `SDK Tools`.
+
+There should be installed
+
+```
+- Android SDK Build-Tools 30.0.1
+- Android SDK Build-Tools 29.0.2
+- Android SDK Build-Tools 28.0.2
+```
+
 ### Building
 
 #### Pre-build
