@@ -64,9 +64,44 @@ This program has tested on environment configuration
 
 ### Building
 
+#### Pre-build
+
+1. Run Android Studio.
+
+2. Press `Start a new Android Studio project`.
+
+3. Select `Phone and Tablet` and `Basic Activity`.
+
+4. Select fields. Name `BusSpy`. Package name `com.example.busspy`. Language `Java`. Minimum SDK `API 16: Android 4.1 (Jelly Bean)`. Use legacy android.support libraries `empty`.
+
+5. Open the Linux console in the `BusSpy` directory.
+
+6. Run commands
+
 ```sh
-$ command
+$ git init
+$ git remote add origin git@github.com:freeprogs/android-busspy.git
+$ git pull origin master
+$ ./configure
+$ make
 ```
+
+####Build
+
+1. Select menu item `Build`.
+
+2. Select submenu item `Generate Signed Bundle / APK`.
+
+3. Select radio button `APK`.
+
+4. Create the keys file. Create the password. Create the key alias.
+
+5. Select `release` and check on `Signature Versions: V1(Jar Signature)` and check on `Signature Versions: V2(Full APK Signature)`.
+
+6. Press next and build the application.
+
+7. Check the file in directory `BusSpy` and path `app/release/app-release.apk` .
+
 
 ### Installation
 
