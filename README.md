@@ -56,7 +56,9 @@ the smartphone.
 
 This program has tested on environment configuration
 ```
-Text
+- Linux Fedora 26
+- Android Studio 4.0.1
+- Android 7.1.1
 
 ```
 
