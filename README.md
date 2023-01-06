@@ -163,8 +163,7 @@ $ make
 
 ### Run
 
-```sh
-$ command
-```
+Search the icon of the BusSpy application in the smartphone or your
+device and press the icon.
 
 ---
