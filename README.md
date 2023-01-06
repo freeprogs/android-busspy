@@ -137,9 +137,29 @@ $ make
 
 ### Installation
 
-```sh
-$ command
-```
+#### Installation through a cable
+
+1. Connect a cable to the smartphone and computer.
+
+2. Allow douwnload through the cable in the smartphone.
+
+3. Upload the apk-file to the smartphone in a directory.
+
+4. Run installation of the apk-file in the smartphone.
+
+5. Allow one installation from the untrusted source.
+
+#### Installation through Internet
+
+1. Put the apk-file to an Internet service program (E-Mail, any
+   messenger and etc.)
+
+2. Download this apk-file from the Internet service to smartphone in a
+   directory.
+
+3. Run installation of the apk-file in the smartphone.
+
+5. Allow one installation from the untrusted source.
 
 ### Run
 
