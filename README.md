@@ -117,7 +117,7 @@ $ ./configure
 $ make
 ```
 
-####Build
+#### Build
 
 1. Select menu item `Build`.
 
