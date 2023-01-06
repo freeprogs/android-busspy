@@ -53,7 +53,6 @@ the smartphone.
 
 ### Requirements
 
-
 This program has tested on environment configuration
 ```
 - Linux Fedora 26
@@ -133,7 +132,6 @@ $ make
 6. Press next and build the application.
 
 7. Check the file in directory `BusSpy` and path `app/release/app-release.apk` .
-
 
 ### Installation
 
