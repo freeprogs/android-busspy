@@ -44,7 +44,7 @@ SELF = Makefile
 
 SRC_TEMPLATE_DIR = src_template
 
-build_dir = project_build
+build_dir = __DNAME_BUILD__
 BUILD_DIR = $(build_dir)
 
 docs_dir = docs

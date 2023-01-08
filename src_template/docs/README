@@ -12,12 +12,14 @@ README
  0. Requirements
  1. Configuration
  2. Building
+ 2.1 Pre-build
+ 2.2 Build
  3. Installation
-   3.1 General installation
-   3.2 How to uninstall the program
+   3.1 Installation through a cable
+   3.2 Installation through Internet
+   3.3 How to uninstall the program
  4. Operating
-   4.1 Set config file
-   4.2 Run program
+   4.1 Run program
  5. Files
  6. Copyright
  7. Licensing
@@ -30,32 +32,181 @@ README
 
 0. REQUIREMENTS
 
+This program has tested on environment configuration
+
+    Linux Fedora 26
+    Android Studio 4.0.1
+    Android 7.1.1
+
+In Android Studio you should check following settings
+
+    Select menu `Tools'.
+    Select submenu `SDK Manager'.
+    Select tab `SDK Platforms'.
+
+There should be installed
+
+    Android SDK Platform 30
+    Android SDK Platform 29
+    Sources for Android 29
+    Android SDK Platform 28
+    Sources for Android 28
+
+In Android Studio you should check following settings
+
+    Select menu `Tools'.
+    Select submenu `SDK Manager'.
+    Select tab `SDK Tools'.
+
+There should be installed
+
+    Android SDK Build-Tools 30.0.1
+    Android SDK Build-Tools 29.0.2
+    Android SDK Build-Tools 28.0.2
+
 1. CONFIGURATION
+
+No configuration.
 
 2. BUILDING
 
+2.1 Pre-build
+
+    Run Android Studio.
+
+    Press `Start a new Android Studio project'.
+
+    Select `Phone and Tablet` and `Basic Activity'.
+
+    Select fields:
+    Name `__PROGRAM_NAME__'.
+    Package name `__PACKAGE_NAME__'.
+    Language `Java'.
+    Minimum SDK `API 16: Android 4.1 (Jelly Bean)'.
+    Use legacy android.support libraries `empty'.
+
+    Open the Linux console in the `__DNAME_PROGRAM__' directory.
+
+    Run commands:
+
+    $ git init
+    $ git remote add origin git@github.com:__DNAME_GITHUB_PATH__
+    $ git pull origin master
+    $ ./configure
+    $ make
+
+2.2 Build
+
+    Select menu item `Build'.
+
+    Select submenu item `Generate Signed Bundle / APK'.
+
+    Select radio button `APK'.
+
+    Create the keys file. Create the password. Create the key alias.
+
+    Select `release' and check on `Signature Versions: V1(Jar Signature)'
+    and check on `Signature Versions: V2(Full APK Signature)'.
+
+    Press next and build the application.
+
+    Check the file in directory `__DNAME_PROGRAM__' and path `__DNAME_APP_RELEASE__/__FNAME_APP_RELEASE__' .
+
 3. INSTALLATION
 
-3.1 General installation
+3.1 Installation through a cable
+
+    Connect a cable to the smartphone and computer.
+
+    Allow douwnload through the cable in the smartphone.
+
+    Upload the apk-file to the smartphone in a directory.
+
+    Run installation of the apk-file in the smartphone.
+
+    Allow one installation from the untrusted source.
+
+3.2 Installation through Internet
+
+    Put the apk-file to an Internet service program
+    (E-Mail, any messenger and etc.)
+
+    Download this apk-file from the Internet service
+    to smartphone in a directory.
+
+    Run installation of the apk-file in the smartphone.
+
+    Allow one installation from the untrusted source.
 
 3.2 How to uninstall the program
 
+Just delete the application in the smartphone or in another device.
+
+To clean the project you can run:
+
+    $ make clean
+
 4. OPERATING
 
-4.1 Set config file
+4.1 Run program
 
-4.2 Run program
+Search the icon of the BusSpy application in the smartphone or your
+device and press the icon.
 
 5. FILES
 
+You can find the documentation files in the `__DNAME_BUILD__/__DNAME_BUILD_DOC__' directory.
+
 6. COPYRIGHT
+
+__PROGRAM_COPYRIGHT__ __PROGRAM_AUTHOR__ __PROGRAM_AUTHOR_EMAIL__
 
 7. LICENSING
 
+You can read full license text in file `__FNAME_LICENSE__'.
+
+GNU GPLv3
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 8. CONTACTS
+
+To know last information about the program go to:
+
+__PROGRAM_SITE__
 
 9. BUGS
 
+To write about bugs and features you can go to the website or write an
+email to:
+
+  __PROGRAM_AUTHOR__ __PROGRAM_AUTHOR_EMAIL__
+
+or use the issue system on:
+
+  __PROGRAM_SITE__
+
 10. TROUBLESHOOTING
 
+If you can not build the application in your Android Studio, then you
+should configure it according to the requirements section. On newer
+versions of different components in Android Studio the application may
+not be built correctly and Android Studio may write red errors,
+pointing to the reasons. So you should set older versions of
+components and dependencies in files like `__DNAME_APP_BUILD_GRADLE__/__FNAME_APP_BUILD_GRADLE__' and
+similar.
+
 11. ACKNOWLEDGMENTS
+
+At the moment I'm sole here __PROGRAM_AUTHOR__ __PROGRAM_AUTHOR_EMAIL__.
