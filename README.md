@@ -7,6 +7,12 @@ information traffic over the net where the service does not work well.
 
 ---
 
+You can download the built application from
+
+https://drive.google.com/file/d/1Q4aots6gNrIfgBByNspjtLhuzSrpytMv/
+
+---
+
 This is a general description how to build and install the program.
 
 This program is an Android Studio project files for building an
